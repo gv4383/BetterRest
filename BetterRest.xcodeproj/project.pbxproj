@@ -11,6 +11,7 @@
 		B92DC0D727266926009DEE4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DC0D627266926009DEE4D /* ContentView.swift */; };
 		B92DC0D92726692A009DEE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92DC0D82726692A009DEE4D /* Assets.xcassets */; };
 		B92DC0DC2726692A009DEE4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92DC0DB2726692A009DEE4D /* Preview Assets.xcassets */; };
+		B95BF203272B6EAC004EB2A5 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B95BF202272B6EAC004EB2A5 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B92DC0D82726692A009DEE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92DC0DB2726692A009DEE4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B92DC0DD2726692A009DEE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95BF202272B6EAC004EB2A5 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				B92DC0D427266926009DEE4D /* BetterRestApp.swift */,
 				B92DC0D627266926009DEE4D /* ContentView.swift */,
+				B95BF202272B6EAC004EB2A5 /* SleepCalculator.mlmodel */,
 				B92DC0D82726692A009DEE4D /* Assets.xcassets */,
 				B92DC0DD2726692A009DEE4D /* Info.plist */,
 				B92DC0DA2726692A009DEE4D /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95BF203272B6EAC004EB2A5 /* SleepCalculator.mlmodel in Sources */,
 				B92DC0D727266926009DEE4D /* ContentView.swift in Sources */,
 				B92DC0D527266926009DEE4D /* BetterRestApp.swift in Sources */,
 			);
@@ -272,7 +276,7 @@
 				DEVELOPMENT_TEAM = 2ABK4QQ3NL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BetterRest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +298,7 @@
 				DEVELOPMENT_TEAM = 2ABK4QQ3NL;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BetterRest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
